@@ -1,0 +1,165 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  /* Body & Layout */
+  body {
+    background: #f4f7f9;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  nav {
+    background-color: #005f73;
+    padding: 1em;
+    text-align: center;
+  }
+  
+  nav a {
+    color: #fff;
+    margin: 0 1em;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Welcome Banner */
+  #welcomeBanner {
+    background: #94d2bd;
+    color: #003049;
+    text-align: center;
+    padding: 1em;
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+  
+  .offer {
+    display: block;
+    color: #d00000;
+    margin-top: 0.5em;
+  }
+  
+  /* Sections */
+  main {
+    padding: 2em;
+  }
+  
+  section {
+    margin-bottom: 2em;
+    background: #ffffff;
+    padding: 1.5em;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1, h2 {
+    color: #005f73;
+    margin-bottom: 0.5em;
+  }
+  
+  .highlight {
+    color: #ee9b00;
+    font-weight: bold;
+  }
+  
+  /* Image Gallery */
+  table {
+    width: 100%;
+    border-spacing: 1em;
+    text-align: center;
+  }
+  
+  .event-img {
+    width: 100%;
+    max-width: 150px;
+    border-radius: 10px;
+    transition: transform 0.3s;
+  }
+  
+  .event-img:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Forms */
+  form {
+    margin-top: 1em;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 0.8em;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="date"],
+  select,
+  textarea {
+    width: 100%;
+    padding: 0.5em;
+    margin-top: 0.3em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  textarea {
+    height: 80px;
+  }
+  
+  input[type="submit"],
+  button {
+    padding: 0.7em 1.2em;
+    background: #005f73;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 1em;
+  }
+  
+  input[type="submit"]:hover,
+  button:hover {
+    background: #0a9396;
+  }
+  
+  /* Feedback section */
+  #feeDisplay {
+    font-style: italic;
+    margin-top: 0.5em;
+  }
+  
+  #charCount {
+    font-weight: bold;
+    color: #005f73;
+  }
+  
+  /* Video Section */
+  #promoVideo {
+    border-radius: 10px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.2);
+    margin-top: 1em;
+  }
+  
+  #videoMsg {
+    margin-top: 0.5em;
+    color: green;
+    font-weight: bold;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 1em;
+    background: #005f73;
+    color: white;
+    margin-top: 2em;
+  }
+  
